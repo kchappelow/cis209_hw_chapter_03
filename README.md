@@ -1,4 +1,4 @@
-#Homework Assignment Week 3 - due 9/28/2016 7:15 p.m.
+#Homework Assignment Week 3 - due 9/27/2017 7:15 p.m.
 ISBN-10.
 
 An ISBN-10 (International Standard Book Number) consists of 10 digits. The last digit is a checksum,
