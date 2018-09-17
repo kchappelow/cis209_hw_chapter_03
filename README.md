@@ -3,6 +3,8 @@ Printing the Decimal Equivalent of a Binary Number.
 
 Write an application that inputs an integer containing only 0s and 1s (i.e. a binary integer) and prints its decimal equivalent.
 
+Create a UML activity diagram that describes the flow of your program using the PlantUML editor.
+
 Make sure you document the program with a header containing your name and a description of what the program does and appropriate comments in the code.
 
 Hint: Use the remainder and division operators to pick off the binary number's digits one at a time, from right to left. 
@@ -28,4 +30,4 @@ The decimal vaule is: 618
 
 Run the program to make sure it works.
 
-Submit the homework using git.
+Submit the UML activity diagram and your solution using git.
