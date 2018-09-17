@@ -1,30 +1,31 @@
-#Homework Assignment Week 3 - due 9/27/2017 7:15 p.m.
-ISBN-10.
+#Homework Assignment Chapter 3 - due 9/26/2017 7:15 p.m.
+Printing the Decimal Equivalent of a Binary Number.
 
-An ISBN-10 (International Standard Book Number) consists of 10 digits. The last digit is a checksum,
-which is calculated from the other nine digits using the following formula:
+Write an application that inputs an integer containing only 0s and 1s (i.e. a binary integer) and prints its decimal equivalent.
 
-```
-(d1 x 1 + d2 x 2 + d3 x 3 + d4 x 4 + d5 x 5 + d6 x 6 + d7 x 7 + d8 x 8 + d9 x 9) % 11
-```
+Make sure you document the program with a header containing your name and a description of what the program does and appropriate comments in the code.
 
-If the checksum is 10, the last digit is denoted as X according to ISBN-10 convention.
+Hint: Use the remainder and division operators to pick off the binary number's digits one at a time, from right to left. 
+In the decimal number system, the rightmost digit has a positional value of 1 and the next digit to the left has a positional value of 10,
+then 100, then 1000, an so on.
 
-Write a program that prompts the user to enter the first 9 digits and displays the 10-digit ISBN (including zeros).
-Your program should read the input as an integer.
+The decimal number 234 can be interpreted as 4*1 + 3*10 + 2*100.
+
+In the binary system, the rightmost digit has a positional value of 1, the next digit to the left a positional value of 2, 
+then 4, then 8, and so on. The decimal equivalent of binary 1101 is 1*1 + 0*2 + 1*4 + 1*8 or 13.
 
 Here are sample runs:
 
 ```
-Enter the first 9 digits of an ISBN as integer: 013601267
-The ISBN-10 number is 0136012671
+Enter a binary number: 10101101
+The decimal value is: 173
 ```
 
 ```
-Enter the first 9 digits of an ISBN as integer: 013031997
-The ISBN-10 number is 013031997X
+Enter a binary number: 01001101010
+The decimal vaule is: 618
 ```
 
-Task #2: Run the program to make sure it works.
+Run the program to make sure it works.
 
-Task #3: Submit the homework using git.
+Submit the homework using git.
