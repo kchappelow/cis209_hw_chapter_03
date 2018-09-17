@@ -1,4 +1,4 @@
-#Homework Assignment Chapter 3 - due 9/26/2017 7:15 p.m.
+Homework Assignment Chapter 3 - due 9/26/2017 7:15 p.m.
 Printing the Decimal Equivalent of a Binary Number.
 
 Write an application that inputs an integer containing only 0s and 1s (i.e. a binary integer) and prints its decimal equivalent.
