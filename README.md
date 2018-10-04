@@ -1,7 +1,7 @@
 Homework Assignment Chapter 3
 Printing the Decimal Equivalent of a Binary Number.
 
-Write an application that inputs an integer containing only 0s and 1s (i.e. a binary integer) and prints its decimal equivalent.
+Write an application that inputs an integer containing only 0s and 1s (i.e. a binary integer) and prints its decimal equivalent. Do not use the String object parseInt to perform the conversion.
 
 Create a UML activity diagram that describes the flow of your program using the PlantUML editor.
 
