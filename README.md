@@ -3,7 +3,7 @@ Printing the Decimal Equivalent of a Binary Number.
 
 Write an application that inputs an integer containing only 0s and 1s (i.e. a binary integer) and prints its decimal equivalent. [Do not use the String object parseInt to perform the conversion.]
 
-Create a UML activity diagram that describes the flow of your program using the PlantUML editor.
+Create a UML activity diagram that describes the flow of your program using the PlantUML editor and save the PNG version of it into your repository so it is part of your project.
 
 Make sure you document the program with a header containing your name and a description of what the program does and appropriate comments in the code.
 
